@@ -6,6 +6,26 @@ body {
 .row {
   margin: 0 !important;
 }
+form {
+  max-width: 370px;
+}
+.error {
+  position: absolute !important;
+  top: 48px !important;
+  background: transparent !important;
+  color: red !important;
+}
+.error ::after {
+  background: transparent;
+}
+.hide {
+  padding: 0;
+  margin: 0;
+  height: 0;
+  width: 0;
+  outline: 0;
+  border: none;
+}
 h1 span {
   color: #917602;
 }
@@ -50,4 +70,7 @@ h1 span {
 input,
 select {
   max-width: 370px;
+}
+select {
+  font-size: 1rem !important;
 }
