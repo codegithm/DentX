@@ -7,6 +7,10 @@ $(document).ready(function () {
     formData.append("template_id", "template_lh2orkr");
     formData.append("user_id", "URj1ren_ccMcAJvfT");
 
+    alert("Sending!");
+    setTimeout(function () {
+      $(".alert").alert("close");
+    }, 300);
     $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
       type: "POST",
       data: formData,
