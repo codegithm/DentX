@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0 !important;
+}
+h1 span {
+  color: #917602;
+}
+.navbar .btn {
+  width: 242px;
+  height: 41px;
+}
+.btn {
+  border-radius: 10px !important;
+  background-color: #917602 !important;
+  color: #ffff !important;
+}
+.nav-line {
+  width: 100vw;
+  height: 24px;
+  top: 122px;
+  background-color: #917602;
+}
+
+.first-column {
+  background-color: #1e1e1e;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px !important;
+  gap: 10px;
+}
+.first-column h1 {
+  max-width: 442px;
+}
+
+.first-column p {
+  max-width: 433px;
+}
+
+.second-column {
+  background-image: url(/media/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+input,
+select {
+  max-width: 370px;
+}

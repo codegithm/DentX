@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>DentX</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/media/DentX.png" alt="DentX" />
+        </a>
+        <a class="btn" href="#call-us-form">BOOK YOUR APPOINTMENT</a>
+      </div>
+    </nav>
+    <div class="nav-line"></div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-5 first-column">
+        <h1>
+          We Are Ready To Help & Take Care Of Your <span>Dental Health</span>
+        </h1>
+
+        <p>
+          Experience pain-free dental care! Schedule your callback now for a
+          brighter, healthier smile.
+        </p>
+
+        <form id="call-us-form" name="call-back">
+          <div class="form-floating mb-3">
+            <input
+              name="name"
+              type="text"
+              class="form-control"
+              id="firstname"
+              required
+            />
+            <label for="firstname">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              name="surname"
+              type="text"
+              class="form-control"
+              id="surname"
+              required
+            />
+            <label for="surname">Surname</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              required
+              name="number"
+              type="tel"
+              class="form-control"
+              id="mobile"
+            />
+            <label for="mobile">Mobile number</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              required
+              name="email"
+              type="email"
+              class="form-control"
+              id="email"
+            />
+            <label for="email">Email address</label>
+          </div>
+          <select
+            class="form-select form-select-lg mb-3"
+            aria-label="Large select example"
+          >
+            <option selected>Service</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <button class="btn">Call me back</button>
+        </form>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-7 second-column"></div>
+    </div>
+    <div class="nav-line" style="height: 80px"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
