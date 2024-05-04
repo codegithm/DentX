@@ -147,3 +147,20 @@ select {
     padding: 16px 20px !important;
   }
 }
+
+body p,
+label,
+li,
+a {
+  font-family: "Amiko", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Amiko", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
