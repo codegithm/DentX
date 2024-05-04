@@ -85,7 +85,7 @@ select {
 }
 .about-dentx h2,
 .about-dentx p {
-  max-width: 555px;
+  max-width: 794px;
 }
 .about-dentx .btn {
   width: 100%;
@@ -118,8 +118,8 @@ select {
 .dentist {
   position: absolute;
   height: 653px;
-  left: 548px;
-  top: 228px;
+  left: 774px;
+  top: 422px;
 }
 
 @media screen and (max-width: 941px) {
