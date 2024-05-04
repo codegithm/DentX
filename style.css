@@ -26,7 +26,8 @@ form {
   outline: 0;
   border: none;
 }
-h1 span {
+h1 span,
+h2 span {
   color: #917602;
 }
 .navbar .btn {
@@ -73,4 +74,55 @@ select {
 }
 select {
   font-size: 1rem !important;
+}
+.about-dentx,
+.contact-dentx {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 16px;
+}
+.about-dentx h2,
+.about-dentx p {
+  max-width: 650px;
+}
+.about-dentx .btn {
+  width: 100%;
+  max-width: 300px;
+}
+.about-dentx .nav-line {
+  height: 9px;
+  width: 100%;
+  max-width: 650px;
+}
+.contact-column {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.contact-column .first,
+.contact-column .sec {
+  width: 100%;
+}
+
+@media screen and (max-width: 422px) {
+  .contact-column {
+    flex-wrap: wrap;
+  }
+}
+
+.dentist {
+  position: absolute;
+  height: 573px;
+  left: 543px;
+  top: 517px;
+}
+
+@media screen and (max-width: 941px) {
+  .dentist {
+    display: none;
+  }
 }
