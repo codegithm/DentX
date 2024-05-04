@@ -25,9 +25,9 @@ $(document).ready(function () {
       });
   });
 
-  $("form[name='contact']").submit(function (e) {
+  $("form[name='call-back-contact']").submit(function (e) {
     e.preventDefault();
-    var formsubmit = document.getElementById("call-us-form");
+    var formsubmit = document.getElementById("contact");
     var formData = new FormData(formsubmit);
     formData.append("service_id", "service_laeyc94");
     formData.append("template_id", "template_lh2orkr");
@@ -49,5 +49,9 @@ $(document).ready(function () {
       .fail(function (error) {
         alert("Oops... " + JSON.stringify(error));
       });
+  });
+
+  $(document).on("click", ".container-fluid book", function () {
+    $("navbar-brand").click();
   });
 });
