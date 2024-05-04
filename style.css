@@ -129,17 +129,13 @@ select {
     display: none;
   }
 }
-@media screen and (max-width: 941px) {
-  .dentist {
-    left: 508px !important;
-  }
-}
+
 @media screen and (max-width: 760px) {
   .contact-column {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 1351.85px) {
+@media screen and (max-width: 1352px) {
   .dentist {
     left: 774px !important;
   }
@@ -189,4 +185,8 @@ h3 {
   font-family: "Amiko", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+.times {
+  font-family: "Amiko", sans-serif;
+  margin-bottom: 1rem;
 }
