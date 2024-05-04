@@ -27,7 +27,8 @@ form {
   border: none;
 }
 h1 span,
-h2 span {
+h2 span,
+h3 span {
   color: #917602;
 }
 .navbar .btn {
@@ -80,11 +81,11 @@ select {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 20px 16px;
+  padding: 20px 86px;
 }
 .about-dentx h2,
 .about-dentx p {
-  max-width: 650px;
+  max-width: 555px;
 }
 .about-dentx .btn {
   width: 100%;
@@ -100,7 +101,7 @@ select {
   flex-direction: row;
   width: 100vw;
   justify-content: space-around;
-  padding: 16px;
+  padding: 16px 86px;
 }
 
 .contact-column .first,
@@ -116,13 +117,33 @@ select {
 
 .dentist {
   position: absolute;
-  height: 573px;
-  left: 642px;
-  top: 257px;
+  height: 653px;
+  left: 548px;
+  top: 228px;
 }
 
 @media screen and (max-width: 941px) {
   .dentist {
     display: none;
+  }
+}
+@media screen and (max-width: 941px) {
+  .dentist {
+    left: 508px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .contact-column {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 484px) {
+  .about-dentx,
+  .contact-dentx {
+    padding: 20px 20px !important;
+  }
+
+  .contact-column {
+    padding: 16px 20px !important;
   }
 }
